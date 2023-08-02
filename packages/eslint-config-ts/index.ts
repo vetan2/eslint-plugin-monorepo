@@ -1,24 +1,8 @@
-import { ESLint } from "eslint"
+import type { ESLint } from "eslint"
 import process from "node:process"
 
-export const typescriptConfig: ESLint.ConfigData = {
-  parserOptions: {
-    ecmaVersion: 2020,
-    sourceType: "module",
-  },
-  env: {
-    es6: true,
-    browser: true,
-    node: true,
-  },
-  plugins: ["prettier", "import", "unused-imports"],
-  extends: [
-    "eslint:recommended",
-    "plugin:eslint-comments/recommended",
-    "plugin:import/recommended",
-    "plugin:prettier/recommended",
-    "plugin:n/recommended",
-  ],
+export = {
+  extends: ["@vetan2/base"],
   overrides: [
     {
       parserOptions: {
@@ -83,4 +67,4 @@ export const typescriptConfig: ESLint.ConfigData = {
     // unused-imports
     "unused-imports/no-unused-imports": 2,
   },
-}
+} satisfies ESLint.ConfigData

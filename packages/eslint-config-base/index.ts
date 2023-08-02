@@ -1,6 +1,6 @@
-import { ESLint } from "eslint"
+import type { ESLint } from "eslint"
 
-export const baseConfig: ESLint.ConfigData = {
+export = {
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: "module",
@@ -16,7 +16,6 @@ export const baseConfig: ESLint.ConfigData = {
     "plugin:eslint-comments/recommended",
     "plugin:import/recommended",
     "plugin:prettier/recommended",
-    "plugin:n/recommended",
   ],
   rules: {
     // eslint
@@ -71,4 +70,4 @@ export const baseConfig: ESLint.ConfigData = {
     // unused-imports
     "unused-imports/no-unused-imports": 2,
   },
-}
+} satisfies ESLint.ConfigData

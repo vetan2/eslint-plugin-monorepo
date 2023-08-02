@@ -3,8 +3,11 @@
   "version": "0.0.1",
   "description": "",
   "main": "./dist/index.js",
-  "files": ["index.ts"],
+  "files": [
+    "index.ts"
+  ],
   "scripts": {
+    "lint": "eslint .",
     "build": "tsc"
   },
   "keywords": [],
@@ -21,11 +24,6 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.1.0",
     "@typescript-eslint/parser": "^6.1.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-n": "^16.0.1",
-    "eslint-plugin-prettier": "^5.0.0",
-    "eslint-plugin-unused-imports": "^3.0.0"
+    "@vetan2/eslint-config-base": "workspace:^"
   }
 }
