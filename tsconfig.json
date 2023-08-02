@@ -1,0 +1,3 @@
+{
+  "extends": "@vetan2/tsconfig/tsconfig.json"
+}

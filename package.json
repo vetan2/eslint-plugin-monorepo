@@ -1,0 +1,19 @@
+{
+  "name": "@vetan2/eslint-plugin-monorepo",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "lint": "turbo run lint"
+  },
+  "keywords": [],
+  "author": "vetan2",
+  "license": "ISC",
+  "devDependencies": {
+    "@vetan2/eslint-plugin": "workspace:^",
+    "@vetan2/tsconfig": "workspace:^",
+    "elint": "^2.0.1",
+    "prettier": "^3.0.0",
+    "turbo": "^1.10.12",
+    "typescript": "^5.1.6"
+  }
+}

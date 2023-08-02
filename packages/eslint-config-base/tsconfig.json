@@ -1,0 +1,6 @@
+{
+  "extends": "@vetan2/tsconfig/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist"
+  }
+}
