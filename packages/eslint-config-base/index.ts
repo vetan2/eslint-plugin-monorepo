@@ -19,7 +19,6 @@ export = {
   ],
   rules: {
     // eslint
-    "comma-dangle": [2, "only-multiline"],
     "object-shorthand": 1,
     "no-unused-vars": [
       1,
