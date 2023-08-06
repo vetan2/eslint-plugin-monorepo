@@ -1,13 +1,19 @@
 {
   "name": "@vetan2/eslint-plugin-monorepo",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "",
+  "private": true,
   "scripts": {
     "build": "turbo run build",
-    "lint": "turbo run lint"
+    "lint": "turbo run lint",
+    "turbo:version": "turbo run version"
   },
   "keywords": [],
   "author": "vetan2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vetan2/eslint-plugin-monorepo"
+  },
   "license": "ISC",
   "devDependencies": {
     "@vetan2/eslint-plugin": "workspace:^",
@@ -15,6 +21,6 @@
     "elint": "^2.0.1",
     "prettier": "^3.0.0",
     "turbo": "^1.10.12",
-    "typescript": "^5.1.6"
+    "typescript": "5.2.0-dev.20230805"
   }
 }

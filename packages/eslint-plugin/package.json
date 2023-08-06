@@ -1,11 +1,12 @@
 {
   "name": "@vetan2/eslint-plugin",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
     "lint": "eslint .",
-    "build": "tsc"
+    "build": "tsc",
+    "version": "npm version"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "@types/node": "^20.4.4",
     "@vetan2/tsconfig": "workspace:^",
     "eslint": "^8.45.0",
-    "prettier": "^3.0.0"
+    "prettier": "^3.0.0",
+    "typescript": "5.2.0-dev.20230805"
   }
 }

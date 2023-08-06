@@ -1,6 +1,6 @@
 {
   "name": "@vetan2/eslint-config-ts",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "",
   "main": "./dist/index.js",
   "files": [
@@ -8,10 +8,11 @@
   ],
   "scripts": {
     "lint": "eslint .",
-    "build": "tsc"
+    "build": "tsc",
+    "version": "npm version"
   },
   "keywords": [],
-  "author": "",
+  "author": "vetan2",
   "license": "ISC",
   "devDependencies": {
     "@types/eslint": "^8.44.0",
@@ -19,7 +20,7 @@
     "@vetan2/tsconfig": "workspace:^",
     "eslint": "^8.45.0",
     "prettier": "^3.0.0",
-    "typescript": "^5.1.6"
+    "typescript": "5.2.0-dev.20230805"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.1.0",
