@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Update dependencies
+- Update prettier config
+
+### Fixed
+- Fix eslint configs
 
 ## 1.0.0 - 2023-08-06
 ### Added

@@ -1,4 +1,4 @@
-import type { ESLint } from "eslint"
+import type { ESLint } from "eslint";
 
 export = {
   parserOptions: {
@@ -17,6 +17,7 @@ export = {
     "plugin:import/recommended",
     "plugin:prettier/recommended",
   ],
+  ignorePatterns: ["node_modules/", "dist/", "build/", "coverage/"],
   rules: {
     // eslint
     "object-shorthand": 1,
@@ -46,7 +47,7 @@ export = {
       {
         trailingComma: "all",
         tabWidth: 2,
-        semi: false,
+        semi: true,
         singleQuote: false,
         endOfLine: "auto",
       },
@@ -69,4 +70,4 @@ export = {
     // unused-imports
     "unused-imports/no-unused-imports": 2,
   },
-} satisfies ESLint.ConfigData
+} satisfies ESLint.ConfigData;
