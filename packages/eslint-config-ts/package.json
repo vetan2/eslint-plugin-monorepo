@@ -7,8 +7,9 @@
     "index.ts"
   ],
   "scripts": {
-    "lint": "eslint .",
+    "lint": "TIMING=1 eslint . --max-warnings 0",
     "build": "tsc",
+    "type:check": "tsc --noEmit",
     "version": "npm version"
   },
   "keywords": [],
