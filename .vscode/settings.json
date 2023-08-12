@@ -1,5 +1,6 @@
 {
   "markdownlint.ignore": [
     "CHANGELOG.md"
-  ]
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
