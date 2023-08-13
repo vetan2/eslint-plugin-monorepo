@@ -1,6 +1,6 @@
 {
   "name": "@vetan2/tsconfig",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "",
   "main": "./tsconfig.json",
   "private": true,
