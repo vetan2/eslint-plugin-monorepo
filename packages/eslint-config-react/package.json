@@ -1,8 +1,11 @@
 {
-  "name": "@vetan2/eslint-plugin",
+  "name": "@vetan2/eslint-config-react",
   "version": "1.1.0",
   "description": "",
   "main": "./dist/index.js",
+  "files": [
+    "index.ts"
+  ],
   "scripts": {
     "lint": "TIMING=1 eslint . --max-warnings 0",
     "build": "tsc",
@@ -10,13 +13,8 @@
     "version": "npm version"
   },
   "keywords": [],
-  "author": "",
+  "author": "vetan2",
   "license": "ISC",
-  "dependencies": {
-    "@vetan2/eslint-config-base": "workspace:^",
-    "@vetan2/eslint-config-react": "workspace:^",
-    "@vetan2/eslint-config-ts": "workspace:^"
-  },
   "devDependencies": {
     "@types/eslint": "^8.44.2",
     "@types/node": "^20.4.8",
@@ -24,5 +22,12 @@
     "eslint": "^8.46.0",
     "prettier": "^3.0.1",
     "typescript": "5.2.0-dev.20230805"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.2.1",
+    "@typescript-eslint/parser": "^6.2.1",
+    "@vetan2/eslint-config-ts": "workspace:^",
+    "eslint-plugin-react": "^7.33.1",
+    "eslint-plugin-react-hooks": "^4.6.0"
   }
 }
