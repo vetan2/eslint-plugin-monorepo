@@ -13,17 +13,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "eslint": "^8.46.0",
-    "@typescript-eslint/utils": "^6.3.0",
+    "eslint": "^8.51.0",
+    "@typescript-eslint/utils": "^6.7.5",
     "@vetan2/eslint-config-base": "workspace:^",
     "@vetan2/eslint-config-react": "workspace:^",
     "@vetan2/eslint-config-ts": "workspace:^"
   },
   "devDependencies": {
-    "@types/eslint": "^8.44.2",
-    "@types/node": "^20.4.8",
+    "@types/eslint": "^8.44.4",
+    "@types/node": "^20.8.4",
     "@vetan2/tsconfig": "workspace:^",
-    "prettier": "^3.0.1",
-    "typescript": "5.2.0-dev.20230805"
+    "prettier": "^3.0.3",
+    "typescript": "5.2.2"
   }
 }
