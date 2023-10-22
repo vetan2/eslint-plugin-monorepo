@@ -13,7 +13,6 @@ export = {
   plugins: ["prettier", "import", "unused-imports"],
   extends: [
     "eslint:recommended",
-    "plugin:eslint-comments/recommended",
     "plugin:import/recommended",
     "plugin:prettier/recommended",
   ],
