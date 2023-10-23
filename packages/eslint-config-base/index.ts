@@ -13,6 +13,7 @@ export = {
   plugins: ["prettier", "import", "unused-imports"],
   extends: [
     "eslint:recommended",
+    "plugin:eslint-comments/recommended",
     "plugin:import/recommended",
     "plugin:prettier/recommended",
   ],
@@ -49,6 +50,9 @@ export = {
         semi: true,
         singleQuote: false,
         endOfLine: "auto",
+      },
+      {
+        usePrettierrc: false,
       },
     ],
 
