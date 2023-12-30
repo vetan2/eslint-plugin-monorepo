@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Fixed
+- getAbsolutePathInfo in import-path rule
+
 ## 1.11.0 - 2023-12-30
 ### Changed
 - Turn off react/display-name rule

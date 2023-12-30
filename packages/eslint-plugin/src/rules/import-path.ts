@@ -72,8 +72,8 @@ const getAbsolutePathInfo = (fileName: string) => {
       result.paths = Object.fromEntries(
         Object.entries<string[]>(tsPathConfig.compilerOptions.paths).map(
           ([key, value]) => [
-            key.replace(/\/\*$/, ""),
-            value.map((path) => join(baseDir, path).replace(/\/\*$/, "")),
+            key.replace(/\/\*$/, "/"),
+            value.map((path) => join(baseDir, path).replace(/\/\*$/, "/")),
           ],
         ),
       );
