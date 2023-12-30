@@ -25,5 +25,6 @@ export = {
     ],
     "react/prop-types": 0,
     "react/require-default-props": 0,
+    "react/display-name": 0,
   },
 } satisfies ESLint.ConfigData;
