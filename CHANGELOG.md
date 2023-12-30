@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Fixed
+- Use import/typescript config for typescript files
+
 ## 1.9.0 - 2023-10-23
 ### Changed
 - Restore eslint-plugin-eslint-comments

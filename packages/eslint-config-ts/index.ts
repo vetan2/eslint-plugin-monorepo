@@ -2,7 +2,7 @@ import type { ESLint } from "eslint";
 import process from "node:process";
 
 export = {
-  extends: ["@vetan2/base"],
+  extends: ["@vetan2/base", "plugin:import/typescript"],
   overrides: [
     {
       parserOptions: {
