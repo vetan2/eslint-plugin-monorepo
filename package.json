@@ -1,6 +1,6 @@
 {
   "name": "@vetan2/eslint-plugin-monorepo",
-  "version": "1.11.0",
+  "version": "1.12.0",
   "description": "",
   "private": true,
   "scripts": {
