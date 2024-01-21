@@ -10,9 +10,10 @@ const TS_CONFIG_FILE_NAMES = ["tsconfig.path.json", "tsconfig.json"];
  * @param path 확인하려는 path
  * @returns path가 존재하면 true, 아니면 false
  */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const has = (map: Record<string, any>, path: string) => {
   let inner = map;
-  for (let step of path.split(".")) {
+  for (const step of path.split(".")) {
     inner = inner[step];
     if (inner === undefined) {
       return false;

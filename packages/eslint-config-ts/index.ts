@@ -11,6 +11,7 @@ export = {
       },
       parser: "@typescript-eslint/parser",
       files: ["*.ts", "*.tsx"],
+      extends: ["plugin:@typescript-eslint/recommended"],
       plugins: ["@typescript-eslint"],
       rules: {
         // eslint
