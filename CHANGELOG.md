@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Changed
+- Update dependencies
+
 ## 1.13.0 - 2024-01-21
 ### Added
 - Extends `plugin:@typescript-eslint/recommended` for typescript files

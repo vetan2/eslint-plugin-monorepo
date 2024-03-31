@@ -19,9 +19,9 @@
   "devDependencies": {
     "@vetan2/eslint-plugin": "workspace:^",
     "@vetan2/tsconfig": "workspace:^",
-    "eslint": "^8.52.0",
-    "prettier": "^3.0.3",
-    "turbo": "^1.10.16",
-    "typescript": "5.2.2"
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "turbo": "^1.13.0",
+    "typescript": "5.4.3"
   }
 }
