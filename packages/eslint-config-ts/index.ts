@@ -27,6 +27,12 @@ export = {
             varsIgnorePattern: "^_",
           },
         ],
+        "@typescript-eslint/consistent-type-imports": [
+          1,
+          {
+            fixStyle: "inline-type-imports",
+          },
+        ],
         "no-param-reassign": [
           2,
           {
