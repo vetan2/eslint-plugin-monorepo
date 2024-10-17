@@ -10,7 +10,7 @@ export = {
         project: ["tsconfig.json"],
       },
       parser: "@typescript-eslint/parser",
-      files: ["*.ts", "*.tsx"],
+      files: ["*.ts", "*.tsx", "*.mts", ".cts"],
       extends: ["plugin:@typescript-eslint/recommended"],
       plugins: ["@typescript-eslint"],
       rules: {
